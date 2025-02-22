@@ -3,10 +3,12 @@ import os
 from tqdm import tqdm
 import numpy as np
 from sklearn.utils import shuffle 
-import tensorflow as tf
+#import tensorflow as tf
 import warnings
 warnings.filterwarnings("ignore")
 
+print(os.getcwd())
+"""
 # Verimizde iki tür sınıf vardır kedi ve köpek
 labels = ["dogs","cats"]
 
@@ -200,3 +202,4 @@ history = model(X_train, y_train, X_test, y_test, num_iterations=2000, learning_
 
 
 
+"""
